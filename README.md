@@ -7,7 +7,15 @@ ways to send http request in Java
 4. Square OkHttp
 
 REFERENCE
+
 - [JDK8 HttpURLConnection Docs](https://docs.oracle.com/javase/8/docs/api/java/net/HttpURLConnection.html)
 
+HttpClient 4.5 requires Java 1.6 or newer.
 
-[encrypt-and-decrypt](encrypt-and-decrypt)
+- [Apache HttpClient4 Docs](https://hc.apache.org/httpcomponents-client-4.5.x/index.html)
+- [Apache HttpClient4 API Docs](https://hc.apache.org/httpcomponents-client-4.5.x/current/httpclient/apidocs/)
+- HttpClient 5.5 requires Java 1.8 or newer.
+- [Apache HttpClient5 Docs](https://hc.apache.org/httpcomponents-client-5.5.x/index.html)
+  [Apache HttpClient5 API Docs](https://hc.apache.org/httpcomponents-client-5.5.x/current/httpclient5/apidocs/)
+
+  [encrypt-and-decrypt](encrypt-and-decrypt)
