@@ -19,4 +19,10 @@ HttpClient 4.5 requires Java 1.6 or newer.
 - [Apache HttpClient5 Docs](https://hc.apache.org/httpcomponents-client-5.5.x/index.html)
   [Apache HttpClient5 API Docs](https://hc.apache.org/httpcomponents-client-5.5.x/current/httpclient5/apidocs/)
 
+Square OkHttp
+- [OkHttp](https://square.github.io/okhttp/)
+- [GitHub](https://github.com/square/okhttp)
+- [Change Log](https://square.github.io/okhttp/changelogs/changelog/)
+- [Demos](https://square.github.io/okhttp/recipes/)
+
 ## [encrypt-and-decrypt](encrypt-and-decrypt)
