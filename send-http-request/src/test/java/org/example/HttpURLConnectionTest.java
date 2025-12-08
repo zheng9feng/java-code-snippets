@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 public class HttpURLConnectionTest {
 
     @Test
-    public void testHttpURLConnectionWithGet() throws IOException {
+    public void testGet() throws IOException {
         // Create a neat value object to hold the URL
         URL url = new URL("https://postman-echo.com/get");
 
@@ -29,7 +29,7 @@ public class HttpURLConnectionTest {
     }
 
     @Test
-    public void testHttpURLConnectionWithPost() throws IOException {
+    public void testPost() throws IOException {
         // Create a neat value object to hold the URL
         URL url = new URL("https://postman-echo.com/post");
 
@@ -54,7 +54,7 @@ public class HttpURLConnectionTest {
     }
 
     @Test
-    public void testHttpURLConnectionWithPut() throws IOException {
+    public void testPut() throws IOException {
         URL url = new URL("https://postman-echo.com/put");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("PUT");
@@ -71,7 +71,7 @@ public class HttpURLConnectionTest {
     }
 
     @Test
-    public void testHttpURLConnectionWithDelete() throws IOException {
+    public void testDelete() throws IOException {
         URL url = new URL("https://postman-echo.com/delete");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("DELETE");
