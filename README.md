@@ -25,6 +25,6 @@ Square OkHttp
 - [Change Log](https://square.github.io/okhttp/changelogs/changelog/)
 - [Demos](https://square.github.io/okhttp/recipes/)
 
-## [encrypt-and-decrypt](encrypt-and-decrypt)
+## [crypto](crypto)
 
 ## [serialize-and-deserialize](serialize-and-deserialize)
