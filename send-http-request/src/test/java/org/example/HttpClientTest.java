@@ -8,12 +8,13 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class HttpClientTest {
 
     @Test
-    public void testHttpClientWithGet() throws IOException, InterruptedException {
+    public void testGet() throws IOException, InterruptedException {
         // create a client
         HttpClient client = HttpClient.newHttpClient();
         // create a request
@@ -34,7 +35,7 @@ public class HttpClientTest {
     }
 
     @Test
-    public void testHttpClientWithPost() throws IOException, InterruptedException {
+    public void testPost() throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://postman-echo.com/post"))
