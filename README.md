@@ -26,3 +26,5 @@ Square OkHttp
 - [Demos](https://square.github.io/okhttp/recipes/)
 
 ## [encrypt-and-decrypt](encrypt-and-decrypt)
+
+## [serialize-and-deserialize](serialize-and-deserialize)
